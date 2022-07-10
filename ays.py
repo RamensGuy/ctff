@@ -1,5 +1,11 @@
-Join = input('Would you like to join me?')
-if Join == 'yes' or 'Yes':
-  print("Great,")
+# raw_input returns the empty string for "enter"
+yes = {'yes','y', 'ye', ''}
+no = {'no','n'}
+
+choice = raw_input().lower()
+if choice in yes:
+   return True
+elif choice in no:
+   return False
 else:
-  print ("Sorry for asking...")
+   sys.stdout.write("Please respond with 'yes' or 'no'")
