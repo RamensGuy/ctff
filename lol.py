@@ -1,4 +1,4 @@
-hi == lol
+hi == ("lol")
 
 
 print("lol")
