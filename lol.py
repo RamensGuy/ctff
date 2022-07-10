@@ -1,4 +1,4 @@
 hi == ("lol")
 
 
-print("lol")
+print("hi")
