@@ -1,4 +1,1 @@
-hi == ("lol")
-
-
-print("hi")
+print("hello world")
